@@ -123,12 +123,12 @@ body{
 .right-side .buttonvoltar a{
     display: inline-block;
     margin-top: 4px;
-    padding: 8px 20px;
+    padding: 5px 20px;
     background: #1b75bc;
     color: #fff;
     border-radius: 45px;
     font-size: 18;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     text-decoration: none;
 }
 
