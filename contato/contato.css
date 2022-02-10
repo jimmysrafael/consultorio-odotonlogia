@@ -173,4 +173,16 @@ body{
   display: flex;
   justify-content: center;
  }
+ .right-side .buttonvoltar a{
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 9px 15px;
+  border-radius: 6px;
+  background: #1b75bc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+ }
 }
