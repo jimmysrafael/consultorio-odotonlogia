@@ -138,7 +138,7 @@ header ul li a
     clip-path: circle(600px at right 800px);
 }
 
-/*Responsivo*/
+/*Responsivo index*/
 
 @media (max-width: 990px) {
     header {
