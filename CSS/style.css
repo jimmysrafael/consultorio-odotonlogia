@@ -152,6 +152,8 @@ header ul li a
         margin: 5px;
         font-size: 0.8rem;
         padding: auto;
+        left: auto;
+        width: auto;
     }
     section {
         padding: 20px 20px 110px;
