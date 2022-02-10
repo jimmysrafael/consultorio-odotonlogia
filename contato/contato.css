@@ -121,15 +121,16 @@ body{
   margin-top: 12px;
 }
 .right-side .buttonvoltar a{
-    display: inline-block;
-    margin-top: 4px;
-    padding: 5px 20px;
-    background: #1b75bc;
-    color: #fff;
-    border-radius: 45px;
-    font-size: 18;
-    letter-spacing: 0;
-    text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 9px 15px;
+  border-radius: 6px;
+  background: #1b75bc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 @media (max-width: 950px) {
