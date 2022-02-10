@@ -125,7 +125,7 @@ body{
   font-size: 18px;
   outline: none;
   border: none;
-  padding: 8px 16px;
+  padding: 6px 12px;
   border-radius: 6px;
   background: #1b75bc;
   cursor: pointer;
@@ -164,5 +164,13 @@ body{
  .container .content .right-side{
    width: 100%;
    margin-left: 0;
+ }
+ .right-side .buttonvoltar{
+   display: flex;
+   justify-content: center;
+ }
+ .right-side .button{
+  display: flex;
+  justify-content: center;
  }
 }
