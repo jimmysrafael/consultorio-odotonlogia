@@ -4,7 +4,7 @@
 }
 
 :root {
-    --cor0: #ebe5c5;
+    --cor0: white;
     --cor1: #1b85bc;
     --cor2: #1b81bc;
     --cor3: #1b80bc;
@@ -222,6 +222,9 @@ header .logo {
     }
     article h2 {
         text-align: center;
+        font-size: 100%;
+    }
+    main p {
         font-size: 100%;
     }
 }
