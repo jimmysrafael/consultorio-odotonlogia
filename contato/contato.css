@@ -15,7 +15,7 @@ body{
   justify-content: center;
 }
 .container{
-  width: 85%;
+  width: 70%;
   background: #fff;
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
@@ -117,8 +117,9 @@ body{
   background: #070707;
 }
 .right-side .buttonvoltar{
-  display: inline-block;
-  margin-top: 12px;
+  display: flex;
+  margin-top: -43px;
+  margin-left: 115px;
 }
 .right-side .buttonvoltar a{
   color: #fff;
@@ -167,10 +168,10 @@ body{
  }
  .right-side .buttonvoltar{
    display: flex;
-   justify-content: center;
+   margin-left: 180px;
+   margin-top: -42px;
  }
  .right-side .button{
   display: flex;
-  justify-content: center;
  }
 }
