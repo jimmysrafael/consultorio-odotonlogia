@@ -14,7 +14,7 @@ body{
   justify-content: center;
 }
 .container{
-  width: 85%;
+  width: 65%;
   background: #fff;
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
@@ -73,6 +73,7 @@ body{
   font-size: 23px;
   font-weight: 600;
   color: #1b75bc;
+  text-align: center;
 }
 .right-side .input-box{
   height: 50px;
@@ -116,7 +117,7 @@ body{
   background: #070707;
 }
 .right-side .buttonvoltar{
-  display: inline-block;
+  display: flex;
   margin-top: 12px;
 }
 .right-side .buttonvoltar a{
@@ -124,14 +125,13 @@ body{
   font-size: 18px;
   outline: none;
   border: none;
-  padding: 9px 15px;
+  padding: 15px 15px;
   border-radius: 6px;
   background: #1b75bc;
   cursor: pointer;
   transition: all 0.3s ease;
   text-decoration: none;
   margin: auto;
-  display: block;
 }
 
 @media (max-width: 950px) {

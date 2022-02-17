@@ -15,7 +15,7 @@ body{
   justify-content: center;
 }
 .container{
-  width: 85%;
+  width: 50%;
   background: #fff;
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
@@ -75,14 +75,14 @@ body{
   color: #1b75bc;
 }
 .right-side .input-box{
-  height: 50px;
-  width: 100%;
-  margin: 12px 0;
+  height: 30px;
+  width: 115%;
+  margin: 20px 0;
 }
 .right-side .input-box input,
 .right-side .input-box textarea{
   height: 100%;
-  width: 100%;
+  width: 50%;
   border: none;
   outline: none;
   font-size: 11px;
@@ -116,8 +116,9 @@ body{
   background: #070707;
 }
 .right-side .buttonvoltar{
-  display: inline-block;
-  margin-top: 12px;
+  display: flex;
+  margin-top: -43px;
+  margin-left: 110px;
   
 }
 .right-side .buttonvoltar a{
@@ -180,4 +181,21 @@ body{
  .topic-text h1{
      text-align: center;
  }
+ .right-side .input-box input,
+.right-side .input-box textarea {
+  width: 100%;
+}
+.right-side .input-box {
+  width: 100%;
+}
+.right-side .button {
+  display: flex;
+  margin-left: -50%;
+  margin-top: 15px;
+}
+.right-side .buttonvoltar {
+  display: flex;
+  margin-left: 65%;
+  margin-top: -43px;
+}
 }

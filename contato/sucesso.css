@@ -14,7 +14,7 @@ body{
   justify-content: center;
 }
 .container{
-  width: 85%;
+  width: 55%;
   background: #fff;
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
@@ -73,6 +73,7 @@ body{
   font-size: 23px;
   font-weight: 600;
   color: #1b75bc;
+  text-align: center;
 }
 .right-side .input-box{
   height: 50px;
@@ -116,7 +117,7 @@ body{
   background: #070707;
 }
 .right-side .buttonvoltar{
-  display: inline-block;
+  display: flex;
   margin-top: 12px;
 }
 .right-side .buttonvoltar a{
