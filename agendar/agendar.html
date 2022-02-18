@@ -10,7 +10,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
     <link rel="shortcut icon" href="../IMAGENS/icone.png" type="image/x-icon">
-    <title>Contato com consultório</title>
+    <title>Agendamento</title>
   </head>
   <body>
     <div class="container">
@@ -37,34 +37,35 @@
         </div>
         <div class="right-side">
           <div class="topic-text">
-              <h1>Agende Sua Consulta</h1>
+              <h1>Agende sua Consulta</h1>
             <form action="https://formsubmit.co/jimmys.rafael@gmail.com" method="POST">
               <input type="hidden" name="_next" value="https://jimmysrafael.github.io/consultorio-odotonlogia/agendar/agendamentos.html" />
     <input type="hidden" name="_autoresponse"
       value="Recebemos seu pedido de agendamento, logo entraremos em contato." />
       <div class="input-box">
-        <input type="text" name="name" placeholder="Digite seu nome" />
+        <input type="text" name="name" placeholder="Digite seu nome" required />
       </div>
       <div class="input-box">
-        <input type="email" name="email" placeholder="Digite seu email" />
+        <input type="email" name="email" placeholder="Digite seu email" required />
       </div>
       <div class="input-box">
-        <input type="tel" name="tel" placeholder="WhatsApp">
+        <input type="tel" name="tel" placeholder="WhatsApp" required/>
       </div>
       <div class="selecao-form">
         <p>Horário do atendimento</p>
-                <select name="Horário de atendimento">
-                    <option></option>
+                <select name="Horário de atendimento" class="horario-atendimento" required>
+                  <option disabled selected>Selecione</option>
                     <option>Manhã</option>
                     <option>Tarde</option>
                     <option>Noite</option>
                 </select>
                 <p>Qual serviço deseja agendar?</p>
-                <select name="Serviço">
-                    <option></option>
+                <select name="Serviço" class="serviço" required>
+                    <option disabled selected>Selecione</option>
                     <option>Limpeza dentária</option>
                     <option>Coroa total</option>
                     <option>Aparelhos Ortodônticos</option>
+                    <option>Outros</option>
                 </select>
       </div>
       <div class="button">
