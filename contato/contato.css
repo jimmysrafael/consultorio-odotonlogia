@@ -133,7 +133,12 @@ body{
   transition: all 0.3s ease;
   text-decoration: none;
 }
-
+.msg-ini {
+  text-align: justify;
+}
+.topic-text {
+  text-align: center;
+}
 @media (max-width: 950px) {
   .container{
     width: 90%;
