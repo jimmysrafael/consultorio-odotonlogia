@@ -41,7 +41,7 @@ body{
   position: absolute;
   height: 70%;
   width: 2px;
-  right: -15px;
+  right: -35px;
   top: 50%;
   transform: translateY(-50%);
   background: #1b75bc;
